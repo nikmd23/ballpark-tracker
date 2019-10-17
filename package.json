@@ -1,0 +1,23 @@
+{
+  "name": "ball-park-tracker",
+  "version": "1.0.0",
+  "description": "Link to original sample app: https://docs.microsoft.com/en-us/azure/azure-maps/tutorial-create-store-locator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikmd23/talk-future-of-dev.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikmd23/talk-future-of-dev/issues"
+  },
+  "homepage": "https://github.com/nikmd23/talk-future-of-dev#readme",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  }
+}
