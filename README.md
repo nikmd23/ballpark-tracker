@@ -8,3 +8,23 @@ Data set to explore:
 
 Potential base image:
 - https://hub.docker.com/r/meanjs/mean/dockerfile
+
+## Usage
+
+Install dependencies
+
+```
+npm install
+```
+
+This app requires an API key for Azure Maps to be configured as an environment variable
+
+```
+export AZURE_MAPS_KEY=<YOUR_KEY_GOES_HERE>
+```
+
+Run the webserver and open localhost:3000
+
+```
+node index.js
+```
