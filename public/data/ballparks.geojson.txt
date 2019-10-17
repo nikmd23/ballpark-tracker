@@ -1,0 +1,1926 @@
+{
+    "type": "FeatureCollection",
+    "name": "Ballparks",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1233,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "North",
+                "TeamName": "Buffalo Bisons",
+                "Affiliate": "Toronto Blue Jays",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/buffalo",
+                "VenueName": "Sahlen Field",
+                "VenueAddress": "One James D. Griffin Plaza",
+                "VenueCity": "Buffalo",
+                "VenueState": "NY",
+                "VenueZip": "14203",
+                "VenueTelephone": "(716) 846-2000",
+                "VenueCountry": "USA",
+                "Latitude": 42.881009,
+                "Longitude": -78.874016,
+                "VenueUrl": "https:\/\/www.milb.com\/buffalo\/ballpark\/sahlen-field",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.874016,
+                    42.881009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1234,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "South",
+                "TeamName": "Charlotte Knights",
+                "Affiliate": "Chicago White Sox",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/charlotte-knights",
+                "VenueName": "BB&T Ballpark",
+                "VenueAddress": "324 South Mint Street",
+                "VenueCity": "Charlotte",
+                "VenueState": "NC",
+                "VenueZip": "28202",
+                "VenueTelephone": "(704) 274-8300",
+                "VenueCountry": "USA",
+                "Latitude": 35.228374,
+                "Longitude": -80.849395,
+                "VenueUrl": "https:\/\/www.milb.com\/charlotte-knights\/ballpark\/contact",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.849395,
+                    35.228374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1235,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "West",
+                "TeamName": "Columbus Clippers",
+                "Affiliate": "Cleveland Indians",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/columbus",
+                "VenueName": "Huntington Park",
+                "VenueAddress": "330 Huntington Park Ln",
+                "VenueCity": "Columbus",
+                "VenueState": "OH",
+                "VenueZip": "43215",
+                "VenueTelephone": "(614) 462-5250",
+                "VenueCountry": "USA",
+                "Latitude": 39.969061,
+                "Longitude": -83.011659,
+                "VenueUrl": "https:\/\/www.milb.com\/columbus\/ballpark\/huntington-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.011659,
+                    39.969061000000103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1236,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "South",
+                "TeamName": "Durham Bulls",
+                "Affiliate": "Tampa Bay Rays",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/durham",
+                "VenueName": "Durham Bulls Athletic Park",
+                "VenueAddress": "409 Blackwell St",
+                "VenueCity": "Durham",
+                "VenueState": "NC",
+                "VenueZip": "27701",
+                "VenueTelephone": "(919) 687-6500",
+                "VenueCountry": "USA",
+                "Latitude": 35.99178,
+                "Longitude": -78.90384,
+                "VenueUrl": "https:\/\/www.milb.com\/durham\/ballpark\/durham-bulls-athletic-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -78.90384,
+                    35.99178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1237,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "South",
+                "TeamName": "Gwinnett Stripers",
+                "Affiliate": "Atlanta Braves",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/gwinnett",
+                "VenueName": "Coolray Field",
+                "VenueAddress": "2500 Buford Dr Ne",
+                "VenueCity": "Lawrenceville",
+                "VenueState": "GA",
+                "VenueZip": "30043",
+                "VenueTelephone": "(678) 277-0300",
+                "VenueCountry": "USA",
+                "Latitude": 34.040849609000098,
+                "Longitude": -83.992985865999998,
+                "VenueUrl": "https:\/\/www.milb.com\/gwinnett\/ballpark\/coolray-field",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.992985866,
+                    34.040849609000098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1238,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "West",
+                "TeamName": "Indianapolis Indians",
+                "Affiliate": "Pittsburgh Pirates",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/indianapolis",
+                "VenueName": "Victory Field",
+                "VenueAddress": "501 W Maryland St",
+                "VenueCity": "Indianapolis",
+                "VenueState": "IN",
+                "VenueZip": "46225",
+                "VenueTelephone": "(317) 269-3545",
+                "VenueCountry": "USA",
+                "Latitude": 39.7648,
+                "Longitude": -86.1685,
+                "VenueUrl": "https:\/\/www.milb.com\/indianapolis\/ballpark\/victory-field",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.168499999999895,
+                    39.7648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1239,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "North",
+                "TeamName": "Lehigh Valley IronPigs",
+                "Affiliate": "Philadelphia Phillies",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/lehigh-valley",
+                "VenueName": "Coca-Cola Park",
+                "VenueAddress": "1050 Ironpigs Way",
+                "VenueCity": "Allentown",
+                "VenueState": "PA",
+                "VenueZip": "18109",
+                "VenueTelephone": "(610) 841-7447",
+                "VenueCountry": "USA",
+                "Latitude": 40.625945,
+                "Longitude": -75.452484,
+                "VenueUrl": "https:\/\/www.milb.com\/lehigh-valley\/ballpark\/coca-cola-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.452484,
+                    40.625945000000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1240,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "West",
+                "TeamName": "Louisville Bats",
+                "Affiliate": "Cincinnati Reds",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/louisville",
+                "VenueName": "Louisville Slugger Field",
+                "VenueAddress": "401 E Main St",
+                "VenueCity": "Louisville",
+                "VenueState": "KY",
+                "VenueZip": "40202",
+                "VenueTelephone": "(502) 212-2287",
+                "VenueCountry": "USA",
+                "Latitude": 38.256608,
+                "Longitude": -85.744528,
+                "VenueUrl": "https:\/\/www.milb.com\/louisville\/ballpark\/stadiumguide",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.744528,
+                    38.256608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1241,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "South",
+                "TeamName": "Norfolk Tides",
+                "Affiliate": "Baltimore Orioles",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/norfolk",
+                "VenueName": "Harbor Park",
+                "VenueAddress": "150 Park Ave",
+                "VenueCity": "Norfolk",
+                "VenueState": "VA",
+                "VenueZip": "23510",
+                "VenueTelephone": "(757) 622-2222",
+                "VenueCountry": "USA",
+                "Latitude": 36.842597,
+                "Longitude": -76.278691,
+                "VenueUrl": "https:\/\/www.milb.com\/norfolk\/ballpark\/harbor-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.278691,
+                    36.842597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1242,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "North",
+                "TeamName": "Pawtucket Red Sox",
+                "Affiliate": "Boston Red Sox",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/pawtucket",
+                "VenueName": "McCoy Stadium",
+                "VenueAddress": "1 Columbus Ave",
+                "VenueCity": "Pawtucket",
+                "VenueState": "RI",
+                "VenueZip": "02860",
+                "VenueTelephone": "(401) 724-7300",
+                "VenueCountry": "USA",
+                "Latitude": 41.87339,
+                "Longitude": -71.37011,
+                "VenueUrl": "https:\/\/www.milb.com\/pawtucket\/ballpark\/mccoy-stadium",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.37011,
+                    41.87339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1243,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "North",
+                "TeamName": "Rochester Red Wings",
+                "Affiliate": "Minnesota Twins",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/rochester",
+                "VenueName": "Frontier Field",
+                "VenueAddress": "333 Plymouth Ave N",
+                "VenueCity": "Rochester",
+                "VenueState": "NY",
+                "VenueZip": "14608",
+                "VenueTelephone": "(585) 262-2009",
+                "VenueCountry": "USA",
+                "Latitude": 43.158082,
+                "Longitude": -77.620388,
+                "VenueUrl": "https:\/\/www.milb.com\/rochester\/ballpark\/frontier-field",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.620388,
+                    43.158082
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1244,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "North",
+                "TeamName": "Scranton\/Wilkes-Barre Railriders",
+                "Affiliate": "New York Yankees",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/scranton-wb",
+                "VenueName": "PNC Field",
+                "VenueAddress": "235 Montage Mountain Rd",
+                "VenueCity": "Moosic",
+                "VenueState": "PA",
+                "VenueZip": "18507",
+                "VenueTelephone": "(570) 969-2255",
+                "VenueCountry": "USA",
+                "Latitude": 41.360511482,
+                "Longitude": -75.683851564999898,
+                "VenueUrl": "https:\/\/www.milb.com\/scranton-wb\/ballpark\/visitpncfield",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.683851564999898,
+                    41.360511482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1245,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "North",
+                "TeamName": "Syracuse Mets",
+                "Affiliate": "New York Mets",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/syracuse",
+                "VenueName": "NBT Bank Stadium",
+                "VenueAddress": "1 Tex Simone Dr",
+                "VenueCity": "Syracuse",
+                "VenueState": "NY",
+                "VenueZip": "13208",
+                "VenueTelephone": "(315) 474-7833",
+                "VenueCountry": "USA",
+                "Latitude": 43.079,
+                "Longitude": -76.16537,
+                "VenueUrl": null,
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.165369999999896,
+                    43.0790000000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1246,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "International",
+                "Division": "West",
+                "TeamName": "Toledo Mud Hens",
+                "Affiliate": "Detroit Tigers",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/toledo",
+                "VenueName": "Fifth Third Field",
+                "VenueAddress": "406 Washington St",
+                "VenueCity": "Toledo",
+                "VenueState": "OH",
+                "VenueZip": "43604",
+                "VenueTelephone": "(419) 725-4367",
+                "VenueCountry": "USA",
+                "Latitude": 41.648585,
+                "Longitude": -83.53866,
+                "VenueUrl": "https:\/\/www.milb.com\/toledo\/ballpark\/fifth-third-field",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.538659999999894,
+                    41.648585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1247,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "Albuquerque Isotopes",
+                "Affiliate": "Colorado Rockies",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/albuquerque",
+                "VenueName": "Isotopes Park",
+                "VenueAddress": "1601 Avenida Cesar Chavez Se",
+                "VenueCity": "Albuquerque",
+                "VenueState": "NM",
+                "VenueZip": "87106",
+                "VenueTelephone": "(505) 924-2255",
+                "VenueCountry": "USA",
+                "Latitude": 35.06983,
+                "Longitude": -106.629126,
+                "VenueUrl": "https:\/\/www.milb.com\/albuquerque\/ballpark\/isotopes-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.629126,
+                    35.06983
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1249,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "El Paso Chihuahuas",
+                "Affiliate": "San Diego Padres",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/el-paso",
+                "VenueName": "Southwest University Park",
+                "VenueAddress": "1 Ballpark Plaza",
+                "VenueCity": "El Paso",
+                "VenueState": "TX",
+                "VenueZip": "79901",
+                "VenueTelephone": "(915) 533-2273",
+                "VenueCountry": "USA",
+                "Latitude": 31.759120251000098,
+                "Longitude": -106.492542782,
+                "VenueUrl": "https:\/\/www.milb.com\/el-paso\/ballpark\/ballpark-guidelines",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -106.492542782,
+                    31.759120251000098
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1250,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Fresno Grizzlies",
+                "Affiliate": "Washington Nationals",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/fresno",
+                "VenueName": "Chukchansi Park",
+                "VenueAddress": "1800 Tulare St",
+                "VenueCity": "Fresno",
+                "VenueState": "CA",
+                "VenueZip": "93721",
+                "VenueTelephone": "(559) 442-1047",
+                "VenueCountry": "USA",
+                "Latitude": 36.73215,
+                "Longitude": -119.790644,
+                "VenueUrl": "https:\/\/www.milb.com\/fresno\/ballpark\/chukchansi-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.790644,
+                    36.73215
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1251,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Iowa Cubs",
+                "Affiliate": "Chicago Cubs",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/iowa",
+                "VenueName": "Principal Park",
+                "VenueAddress": "1 Line Dr",
+                "VenueCity": "Des Moines",
+                "VenueState": "IA",
+                "VenueZip": "50309",
+                "VenueTelephone": "(515) 243-6111",
+                "VenueCountry": "USA",
+                "Latitude": 41.58013,
+                "Longitude": -93.616027,
+                "VenueUrl": "https:\/\/www.milb.com\/iowa\/ballpark",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.616027,
+                    41.580130000000104
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1252,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "Las Vegas Aviators",
+                "Affiliate": "Oakland Athletics",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/las-vegas",
+                "VenueName": "Las Vegas Ballpark",
+                "VenueAddress": "1650 S Pavilion Center Dr",
+                "VenueCity": "Las Vegas",
+                "VenueState": "NV",
+                "VenueZip": "89135",
+                "VenueTelephone": "(702) 943-7200",
+                "VenueCountry": "USA",
+                "Latitude": 36.179802,
+                "Longitude": -115.129891,
+                "VenueUrl": "https:\/\/www.thelvballpark.com\/",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -115.129891,
+                    36.179802000000102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1253,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Memphis Redbirds",
+                "Affiliate": "St. Louis Cardinals",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/memphis",
+                "VenueName": "Autozone Park",
+                "VenueAddress": "200 Union Ave",
+                "VenueCity": "Memphis",
+                "VenueState": "TN",
+                "VenueZip": "38103",
+                "VenueTelephone": "(901) 721-6050",
+                "VenueCountry": "USA",
+                "Latitude": 35.142920465000003,
+                "Longitude": -90.049308695999997,
+                "VenueUrl": "https:\/\/www.milb.com\/memphis\/ballpark\/autozone-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.049308696,
+                    35.142920465
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1254,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Nashville Sounds",
+                "Affiliate": "Texas Rangers",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/nashville",
+                "VenueName": "First Tennessee Park",
+                "VenueAddress": "19 Jr Gilliam Way",
+                "VenueCity": "Nashville",
+                "VenueState": "TN",
+                "VenueZip": "37219",
+                "VenueTelephone": "(615) 690-4487",
+                "VenueCountry": "USA",
+                "Latitude": 36.172611,
+                "Longitude": -86.784721,
+                "VenueUrl": "https:\/\/www.milb.com\/nashville\/ballpark\/ballparkguide",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.784721,
+                    36.172611000000103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1255,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "New Orleans Baby Cakes",
+                "Affiliate": "Miami Marlins",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/new-orleans",
+                "VenueName": "Shrine On Airline",
+                "VenueAddress": "6000 Airline Dr",
+                "VenueCity": "Metairie",
+                "VenueState": "LA",
+                "VenueZip": "70003",
+                "VenueTelephone": "(504) 734-5155",
+                "VenueCountry": "USA",
+                "Latitude": 29.975474,
+                "Longitude": -90.199712,
+                "VenueUrl": null,
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.199712,
+                    29.975474000000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1256,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "Oklahoma City Dodgers",
+                "Affiliate": "Los Angeles Dodgers",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/oklahoma-city",
+                "VenueName": "Chickasaw Bricktown Ballpark",
+                "VenueAddress": "2 S Mickey Mantle Dr",
+                "VenueCity": "Oklahoma City",
+                "VenueState": "OK",
+                "VenueZip": "73104",
+                "VenueTelephone": "(405) 218-1000",
+                "VenueCountry": "USA",
+                "Latitude": 35.465055,
+                "Longitude": -97.507938,
+                "VenueUrl": "https:\/\/www.milb.com\/oklahoma-city\/ballpark\/chickasaw-bricktown-ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.507938,
+                    35.465055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1257,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Omaha Storm Chasers",
+                "Affiliate": "Kansas City Royals",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/omaha",
+                "VenueName": "Werner Park",
+                "VenueAddress": "12356 Ballpark Way",
+                "VenueCity": "Papillion",
+                "VenueState": "NE",
+                "VenueZip": "68046",
+                "VenueTelephone": "(402) 738-5100",
+                "VenueCountry": "USA",
+                "Latitude": 41.1517,
+                "Longitude": -96.106615,
+                "VenueUrl": "https:\/\/www.milb.com\/omaha\/ballpark\/werner-park",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -96.106615,
+                    41.1517
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1258,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Reno Aces",
+                "Affiliate": "Arizona Diamondbacks",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/reno",
+                "VenueName": "Greater Nevada Field",
+                "VenueAddress": "250 Evans Ave",
+                "VenueCity": "Reno",
+                "VenueState": "NV",
+                "VenueZip": "89501",
+                "VenueTelephone": "(775) 334-4700",
+                "VenueCountry": "USA",
+                "Latitude": 39.5286,
+                "Longitude": -119.808256,
+                "VenueUrl": "https:\/\/greaternevadafield.com",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -119.808256,
+                    39.5286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1259,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "Round Rock Express",
+                "Affiliate": "Houston Astros",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/round-rock",
+                "VenueName": "Dell Diamond",
+                "VenueAddress": "3400 E Palm Valley Blvd",
+                "VenueCity": "Round Rock",
+                "VenueState": "TX",
+                "VenueZip": "78665",
+                "VenueTelephone": "(512) 255-2255",
+                "VenueCountry": "USA",
+                "Latitude": 30.527559,
+                "Longitude": -97.630273,
+                "VenueUrl": "https:\/\/www.milb.com\/round-rock\/ballpark\/navigation",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.630273,
+                    30.5275590000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1260,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Sacramento River Cats",
+                "Affiliate": "San Francisco Giants",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/sacramento",
+                "VenueName": "Raley Field",
+                "VenueAddress": "400 Ballpark Dr",
+                "VenueCity": "West Sacramento",
+                "VenueState": "CA",
+                "VenueZip": "95691",
+                "VenueTelephone": "(916) 376-4700",
+                "VenueCountry": "USA",
+                "Latitude": 38.58038,
+                "Longitude": -121.5138,
+                "VenueUrl": "http:\/\/www.raleyfield.com\/",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.5138,
+                    38.58038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1261,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "Salt Lake Bees",
+                "Affiliate": "Los Angeles Angels",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/salt-lake",
+                "VenueName": "Smith's Ballpark",
+                "VenueAddress": "77 1300 S",
+                "VenueCity": "Salt Lake City",
+                "VenueState": "UT",
+                "VenueZip": "84115",
+                "VenueTelephone": "(801) 350-6900",
+                "VenueCountry": "USA",
+                "Latitude": 40.740755,
+                "Longitude": -111.89287,
+                "VenueUrl": "https:\/\/www.milb.com\/salt-lake\/ballpark\/faqs",
+                "Visited": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -111.89287,
+                    40.740755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1329,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Southern",
+                "TeamName": "San Antonio Missions",
+                "Affiliate": "Milwaukee Brewers",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/san-antonio",
+                "VenueName": "Nelson W Wolff Municipal Stadium",
+                "VenueAddress": "5757 Us 90",
+                "VenueCity": "San Antonio",
+                "VenueState": "TX",
+                "VenueZip": "78227",
+                "VenueTelephone": "(210) 675-7275",
+                "VenueCountry": "USA",
+                "Latitude": 29.409608,
+                "Longitude": -98.601655,
+                "VenueUrl": "https:\/\/www.milb.com\/san-antonio\/ballpark\/wolff-stadium",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.601654999999894,
+                    29.409608
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1262,
+                "League": "MiLB",
+                "Level": "Triple-A",
+                "SubLeague": "Pacific Coast",
+                "Division": "Northern",
+                "TeamName": "Tacoma Rainiers",
+                "Affiliate": "Seattle Mariners",
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/www.milb.com\/tacoma",
+                "VenueName": "Cheney Stadium",
+                "VenueAddress": "2502 S Tyler St",
+                "VenueCity": "Tacoma",
+                "VenueState": "WA",
+                "VenueZip": "98405",
+                "VenueTelephone": "(253) 752-7707",
+                "VenueCountry": "USA",
+                "Latitude": 47.238058095,
+                "Longitude": -122.497557043,
+                "VenueUrl": "https:\/\/www.milb.com\/tacoma\/ballpark\/cheney-stadium",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.497557043,
+                    47.238058095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 232,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "East",
+                "TeamName": "Baltimore Orioles",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/orioles.com",
+                "VenueName": "Oriole Park",
+                "VenueAddress": "333 West Camden Street",
+                "VenueCity": "Baltimore",
+                "VenueState": "MD",
+                "VenueZip": "21201",
+                "VenueTelephone": "(410) 685-9800",
+                "VenueCountry": "USA",
+                "Latitude": 39.28395,
+                "Longitude": -76.62156,
+                "VenueUrl": "https:\/\/www.mlb.com\/orioles\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -76.62156,
+                    39.28395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 225,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "East",
+                "TeamName": "Boston Red Sox",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/redsox.com",
+                "VenueName": "Fenway Park",
+                "VenueAddress": "4 Yawkey Way",
+                "VenueCity": "Boston",
+                "VenueState": "MA",
+                "VenueZip": "02215",
+                "VenueTelephone": "(877) 733-7699",
+                "VenueCountry": "USA",
+                "Latitude": 42.346220062999997,
+                "Longitude": -71.09771003,
+                "VenueUrl": "https:\/\/www.mlb.com\/redsox\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.09771003,
+                    42.346220063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 241,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "Central",
+                "TeamName": "Chicago White Sox",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/whitesox.com",
+                "VenueName": "Guaranteed Rate Field",
+                "VenueAddress": "333 West 35Th Street",
+                "VenueCity": "Chicago",
+                "VenueState": "IL",
+                "VenueZip": "60616",
+                "VenueTelephone": "(312) 674-1000",
+                "VenueCountry": "USA",
+                "Latitude": 41.82985,
+                "Longitude": -87.63365,
+                "VenueUrl": "https:\/\/www.mlb.com\/whitesox\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.63365,
+                    41.8298500000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 227,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "Central",
+                "TeamName": "Cleveland Indians",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/indians.com",
+                "VenueName": "Progressive Field",
+                "VenueAddress": "2401 Ontario Street",
+                "VenueCity": "Cleveland",
+                "VenueState": "OH",
+                "VenueZip": "44115",
+                "VenueTelephone": "(216) 420-4487",
+                "VenueCountry": "USA",
+                "Latitude": 41.495788818000101,
+                "Longitude": -81.685297454999997,
+                "VenueUrl": "https:\/\/www.mlb.com\/indians\/ballpark\/",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.685297455,
+                    41.495788818000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 222,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "Central",
+                "TeamName": "Detroit Tigers",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/tigers.com",
+                "VenueName": "Comerica Park",
+                "VenueAddress": "2100 Woodward Avenue",
+                "VenueCity": "Detroit",
+                "VenueState": "MI",
+                "VenueZip": "48201",
+                "VenueTelephone": "(313) 962-4000",
+                "VenueCountry": "USA",
+                "Latitude": 42.339278037,
+                "Longitude": -83.048831437999993,
+                "VenueUrl": "https:\/\/www.mlb.com\/tigers\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.04883143799999,
+                    42.339278037
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 230,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "West",
+                "TeamName": "Houston Astros",
+                "Affiliate": null,
+                "RoofType": "Retractable",
+                "TeamUrl": "https:\/\/astros.com",
+                "VenueName": "Minute Maid Park",
+                "VenueAddress": "501 Crawford Street",
+                "VenueCity": "Houston",
+                "VenueState": "TX",
+                "VenueZip": "77002",
+                "VenueTelephone": "(713) 259-8000",
+                "VenueCountry": "USA",
+                "Latitude": 29.75718,
+                "Longitude": -95.35554,
+                "VenueUrl": "https:\/\/www.mlb.com\/astros\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.35554,
+                    29.757180000000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 228,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "Central",
+                "TeamName": "Kansas City Royals",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/royals.com",
+                "VenueName": "Kauffman Stadium",
+                "VenueAddress": "One Royal Way",
+                "VenueCity": "Kansas City",
+                "VenueState": "MO",
+                "VenueZip": "64141",
+                "VenueTelephone": "(816) 921-8000",
+                "VenueCountry": "USA",
+                "Latitude": 39.051640070000097,
+                "Longitude": -94.480429930999904,
+                "VenueUrl": "https:\/\/www.mlb.com\/royals\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -94.480429930999904,
+                    39.051640070000097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 219,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "West",
+                "TeamName": "Los Angeles Angels",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/angels.com",
+                "VenueName": "Angel Stadium",
+                "VenueAddress": "2000 East Gene Autry Way",
+                "VenueCity": "Anaheim",
+                "VenueState": "CA",
+                "VenueZip": "92806",
+                "VenueTelephone": "(714) 940-2000",
+                "VenueCountry": "USA",
+                "Latitude": 33.80031,
+                "Longitude": -117.88271,
+                "VenueUrl": "https:\/\/www.mlb.com\/angels\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.88271,
+                    33.80031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 245,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "Central",
+                "TeamName": "Minnesota Twins",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/twinsbaseball.com",
+                "VenueName": "Target Field",
+                "VenueAddress": "1 Twins Way",
+                "VenueCity": "Minneapolis",
+                "VenueState": "MN",
+                "VenueZip": "55415",
+                "VenueTelephone": "(612) 659-3400",
+                "VenueCountry": "USA",
+                "Latitude": 44.98175,
+                "Longitude": -93.27777,
+                "VenueUrl": "https:\/\/www.mlb.com\/twins\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.27777,
+                    44.98175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 243,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "East",
+                "TeamName": "New York Yankees",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/yankees.com",
+                "VenueName": "Yankee Stadium",
+                "VenueAddress": "East 161st Street",
+                "VenueCity": "Bronx",
+                "VenueState": "NY",
+                "VenueZip": "10451",
+                "VenueTelephone": "(718) 293-4300",
+                "VenueCountry": "USA",
+                "Latitude": 40.82963,
+                "Longitude": -73.92624,
+                "VenueUrl": "https:\/\/www.mlb.com\/yankees\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.92624,
+                    40.829630000000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 370,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "West",
+                "TeamName": "Oakland Athletics",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/athletics.com",
+                "VenueName": "Oakland Coliseum",
+                "VenueAddress": "7000 Coliseum Way",
+                "VenueCity": "Oakland",
+                "VenueState": "CA",
+                "VenueZip": "94621",
+                "VenueTelephone": "(510) 569-2121",
+                "VenueCountry": "USA",
+                "Latitude": 37.75161,
+                "Longitude": -122.20062,
+                "VenueUrl": "https:\/\/www.mlb.com\/athletics\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.20062,
+                    37.75161
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 236,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "West",
+                "TeamName": "Seattle Mariners",
+                "Affiliate": null,
+                "RoofType": "Retractable",
+                "TeamUrl": "https:\/\/mariners.com",
+                "VenueName": "T-Mobile Park",
+                "VenueAddress": "P.O. Box 4100",
+                "VenueCity": "Seattle",
+                "VenueState": "WA",
+                "VenueZip": "98104",
+                "VenueTelephone": "(206) 346-4000",
+                "VenueCountry": "USA",
+                "Latitude": 47.59147,
+                "Longitude": -122.33235,
+                "VenueUrl": "https:\/\/www.mlb.com\/mariners\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.33235,
+                    47.591470000000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 239,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "East",
+                "TeamName": "Tampa Bay Rays",
+                "Affiliate": null,
+                "RoofType": "Dome",
+                "TeamUrl": "https:\/\/raysbaseball.com",
+                "VenueName": "Tropicana Field",
+                "VenueAddress": "One Tropicana Drive",
+                "VenueCity": "Saint Petersburg",
+                "VenueState": "FL",
+                "VenueZip": "33705",
+                "VenueTelephone": "(727) 825-3137",
+                "VenueCountry": "USA",
+                "Latitude": 27.768125426000001,
+                "Longitude": -82.653455625999996,
+                "VenueUrl": "https:\/\/www.mlb.com\/rays\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.653455626,
+                    27.768125426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 238,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "West",
+                "TeamName": "Texas Rangers",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/texasrangers.com",
+                "VenueName": "Globe Life Park in Arlington",
+                "VenueAddress": "1000 Ballpark Way",
+                "VenueCity": "Arlington",
+                "VenueState": "TX",
+                "VenueZip": "76011",
+                "VenueTelephone": "(817) 273-5222",
+                "VenueCountry": "USA",
+                "Latitude": 32.75123,
+                "Longitude": -97.08255,
+                "VenueUrl": "https:\/\/www.mlb.com\/rangers\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -97.08255,
+                    32.75123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 247,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "American",
+                "Division": "East",
+                "TeamName": "Toronto Blue Jays",
+                "Affiliate": null,
+                "RoofType": "Retractable",
+                "TeamUrl": "https:\/\/bluejays.com",
+                "VenueName": "Rogers Centre",
+                "VenueAddress": "1 Blue Jays Way",
+                "VenueCity": "Toronto",
+                "VenueState": "ON",
+                "VenueZip": "M5V1J1",
+                "VenueTelephone": "(416) 341-1000",
+                "VenueCountry": "CAN",
+                "Latitude": 43.641420717000102,
+                "Longitude": -79.389418172999996,
+                "VenueUrl": "https:\/\/www.mlb.com\/bluejays\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -79.389418173,
+                    43.641420717000102
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 220,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "West",
+                "TeamName": "Arizona Diamondbacks",
+                "Affiliate": null,
+                "RoofType": "Retractable",
+                "TeamUrl": "https:\/\/dbacks.com",
+                "VenueName": "Chase Field",
+                "VenueAddress": "401 East Jefferson Street",
+                "VenueCity": "Phoenix",
+                "VenueState": "AZ",
+                "VenueZip": "85004",
+                "VenueTelephone": "(602) 462-6500",
+                "VenueCountry": "USA",
+                "Latitude": 33.4452718060001,
+                "Longitude": -112.06680131500001,
+                "VenueUrl": "https:\/\/www.mlb.com\/dbacks\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -112.066801315,
+                    33.4452718060001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 1293,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "East",
+                "TeamName": "Atlanta Braves",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/braves.com",
+                "VenueName": "SunTrust Park",
+                "VenueAddress": "755 Battery Avenue",
+                "VenueCity": "Atlanta",
+                "VenueState": "GA",
+                "VenueZip": "30339",
+                "VenueTelephone": "(404) 577-9100",
+                "VenueCountry": "USA",
+                "Latitude": 33.890787864000103,
+                "Longitude": -84.467761053999894,
+                "VenueUrl": "https:\/\/www.mlb.com\/braves\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.467761053999894,
+                    33.890787864000103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 242,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "Central",
+                "TeamName": "Chicago Cubs",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/cubs.com",
+                "VenueName": "Wrigley Field",
+                "VenueAddress": "1060 West Addison Street",
+                "VenueCity": "Chicago",
+                "VenueState": "IL",
+                "VenueZip": "60613",
+                "VenueTelephone": "(800) 843-2827",
+                "VenueCountry": "USA",
+                "Latitude": 41.948060025000103,
+                "Longitude": -87.65564994,
+                "VenueUrl": "https:\/\/www.mlb.com\/cubs\/ballpark\/",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.65564994,
+                    41.948060025000103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 226,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "Central",
+                "TeamName": "Cincinnati Reds",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/reds.com",
+                "VenueName": "Great American Ball Park",
+                "VenueAddress": "100 Main Street",
+                "VenueCity": "Cincinnati",
+                "VenueState": "OH",
+                "VenueZip": "45202",
+                "VenueTelephone": "(513) 381-7337",
+                "VenueCountry": "USA",
+                "Latitude": 39.09721,
+                "Longitude": -84.50646,
+                "VenueUrl": "https:\/\/www.mlb.com\/reds\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.50646,
+                    39.097210000000103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 223,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "West",
+                "TeamName": "Colorado Rockies",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/rockies.com",
+                "VenueName": "Coors Field",
+                "VenueAddress": "2001 Blake Street",
+                "VenueCity": "Denver",
+                "VenueState": "CO",
+                "VenueZip": "80205",
+                "VenueTelephone": "(303) 292-0200",
+                "VenueCountry": "USA",
+                "Latitude": 39.75635,
+                "Longitude": -104.99414,
+                "VenueUrl": "https:\/\/www.mlb.com\/rockies\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -104.99414,
+                    39.75635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 224,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "West",
+                "TeamName": "Los Angeles Dodgers",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/dodgers.com",
+                "VenueName": "Dodger Stadium",
+                "VenueAddress": "1000 Vin Scully Avenue",
+                "VenueCity": "Los Angeles",
+                "VenueState": "CA",
+                "VenueZip": "90090",
+                "VenueTelephone": "(866) 363-4377",
+                "VenueCountry": "USA",
+                "Latitude": 34.07388,
+                "Longitude": -118.23995,
+                "VenueUrl": "https:\/\/www.mlb.com\/dodgers\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.23995,
+                    34.07388
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 248,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "East",
+                "TeamName": "Miami Marlins",
+                "Affiliate": null,
+                "RoofType": "Retractable",
+                "TeamUrl": "https:\/\/marlins.com",
+                "VenueName": "Marlins Park",
+                "VenueAddress": "501 Marlins Way",
+                "VenueCity": "Miami",
+                "VenueState": "FL",
+                "VenueZip": "33125",
+                "VenueTelephone": "(305) 480-1300",
+                "VenueCountry": "USA",
+                "Latitude": 25.77809,
+                "Longitude": -80.21953,
+                "VenueUrl": "https:\/\/www.mlb.com\/marlins\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.21953,
+                    25.77809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 229,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "Central",
+                "TeamName": "Milwaukee Brewers",
+                "Affiliate": null,
+                "RoofType": "Retractable",
+                "TeamUrl": "https:\/\/brewers.com",
+                "VenueName": "Miller Park",
+                "VenueAddress": "One Brewers Way",
+                "VenueCity": "Milwaukee",
+                "VenueState": "WI",
+                "VenueZip": "53214",
+                "VenueTelephone": "(414) 902-4400",
+                "VenueCountry": "USA",
+                "Latitude": 43.02812,
+                "Longitude": -87.97118,
+                "VenueUrl": "https:\/\/www.mlb.com\/brewers\/ballpark\/",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.97118,
+                    43.028120000000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 237,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "East",
+                "TeamName": "New York Mets",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/mets.com",
+                "VenueName": "Citi Field",
+                "VenueAddress": "123-01 Roosevelt Avenue",
+                "VenueCity": "Flushing",
+                "VenueState": "NY",
+                "VenueZip": "11368",
+                "VenueTelephone": "(718) 507-6387",
+                "VenueCountry": "USA",
+                "Latitude": 40.757041174999998,
+                "Longitude": -73.845889825,
+                "VenueUrl": "https:\/\/www.mlb.com\/mets\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -73.845889825,
+                    40.757041175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 221,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "East",
+                "TeamName": "Philadelphia Phillies",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/phillies.com",
+                "VenueName": "Citizens Bank Park",
+                "VenueAddress": "One Citizens Bank Way",
+                "VenueCity": "Philadelphia",
+                "VenueState": "PA",
+                "VenueZip": "19148",
+                "VenueTelephone": "(215) 463-1000",
+                "VenueCountry": "USA",
+                "Latitude": 39.906180011000103,
+                "Longitude": -75.166471555000001,
+                "VenueUrl": "https:\/\/www.mlb.com\/phillies\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -75.166471555,
+                    39.906180011000103
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 235,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "Central",
+                "TeamName": "Pittsburgh Pirates",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/pirates.com",
+                "VenueName": "PNC Park",
+                "VenueAddress": "115 Federal Street",
+                "VenueCity": "Pittsburgh",
+                "VenueState": "PA",
+                "VenueZip": "15212",
+                "VenueTelephone": "(412) 321-2827",
+                "VenueCountry": "USA",
+                "Latitude": 40.447050005000101,
+                "Longitude": -80.006160028999901,
+                "VenueUrl": "https:\/\/www.mlb.com\/pirates\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -80.006160028999901,
+                    40.447050005000101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 231,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "Central",
+                "TeamName": "St. Louis Cardinals",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/cardinals.com",
+                "VenueName": "Busch Stadium",
+                "VenueAddress": "700 Clark Avenue",
+                "VenueCity": "Saint Louis",
+                "VenueState": "MO",
+                "VenueZip": "63102",
+                "VenueTelephone": "(314) 345-9600",
+                "VenueCountry": "USA",
+                "Latitude": 38.622579977000001,
+                "Longitude": -90.193060052000007,
+                "VenueUrl": "https:\/\/www.mlb.com\/cardinals\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.193060052,
+                    38.622579977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 234,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "West",
+                "TeamName": "San Diego Padres",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/padres.com",
+                "VenueName": "Petco Park",
+                "VenueAddress": "100 Park Boulevard",
+                "VenueCity": "San Diego",
+                "VenueState": "CA",
+                "VenueZip": "92101",
+                "VenueTelephone": "(619) 795-5000",
+                "VenueCountry": "USA",
+                "Latitude": 32.70757,
+                "Longitude": -117.15704,
+                "VenueUrl": "https:\/\/www.mlb.com\/padres\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.15704,
+                    32.70757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 233,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "West",
+                "TeamName": "San Francisco Giants",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/sfgiants.com",
+                "VenueName": "AT&T Park",
+                "VenueAddress": "24 Willie Mays Plaza",
+                "VenueCity": "San Francisco",
+                "VenueState": "CA",
+                "VenueZip": "94107",
+                "VenueTelephone": "(415) 972-2000",
+                "VenueCountry": "USA",
+                "Latitude": 37.778398838000001,
+                "Longitude": -122.389691697,
+                "VenueUrl": "https:\/\/www.mlb.com\/giants\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.389691697,
+                    37.778398838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "VenueId": 244,
+                "League": "MLB",
+                "Level": "Major League",
+                "SubLeague": "National",
+                "Division": "East",
+                "TeamName": "Washington Nationals",
+                "Affiliate": null,
+                "RoofType": "None",
+                "TeamUrl": "https:\/\/nationals.com",
+                "VenueName": "Nationals Park",
+                "VenueAddress": "1500 South Capitol St Se",
+                "VenueCity": "Washington",
+                "VenueState": "DC",
+                "VenueZip": "20003",
+                "VenueTelephone": "(202) 675-6287",
+                "VenueCountry": "USA",
+                "Latitude": 38.87305,
+                "Longitude": -77.0074,
+                "VenueUrl": "https:\/\/www.mlb.com\/nationals\/ballpark",
+                "Visited": true
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.0074,
+                    38.87305
+                ]
+            }
+        }
+    ]
+}
