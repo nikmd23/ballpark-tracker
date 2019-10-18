@@ -20,6 +20,7 @@ function initialize() {
         center: [-90, 40],
         zoom: 2,
         view: 'Auto',
+        style: 'grayscale_light',
 		
 		//Add your Azure Maps subscription key to the map SDK. Get an Azure Maps key at https://azure.com/maps
         authOptions: {

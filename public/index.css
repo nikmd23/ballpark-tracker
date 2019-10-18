@@ -10,12 +10,12 @@ header {
     height: 30px;
     padding: 15px 0 20px 20px;
     font-size: 25px;
-    font-style: italic;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    /*font-style: italic;*/
+    /*font-family: "Comic Sans MS", cursive, sans-serif;*/
     line-height: 30px;
     font-weight: bold;
     color: white;
-    background-color: #007faa;
+    background-color: #0f2475;
 }
 
     header span {
