@@ -1,6 +1,6 @@
 
 //The maximum zoom level to cluster data point data on the map.
-var maxClusterZoomLevel = 6;
+var maxClusterZoomLevel = 5;
 
 //The URL to the store location data.
 var storeLocationDataUrl = 'data/ballparks.geojson';
@@ -166,8 +166,6 @@ function loadStoreData(){
     fetch(storeLocationDataUrl)
     .then(response => response.json())
     .then(parks => {
-        console.log(parks);
-
         //Add the features to the data source.
         datasource.add(parks.features);
 
@@ -310,17 +308,6 @@ function updateListItems() {
         //List the ten closest locations in the side panel.
         var html = [], properties;
 
-        /*
-            Generating HTML for each item that looks like this:
-         
-            <div class="listItem" onclick="itemSelected('id')">
-                <div class="listItem-title">1 Microsoft Way</div>
-                Redmond, WA 98052<br />
-                Open until 9:00 PM<br />
-                0.7 miles away
-            </div>
-         */
-
         //Get all the shapes that have been rendered in the bubble layer. 
         var data = map.layers.getRenderedShapes(map.getCamera().bounds, [iconLayer]);
 
@@ -344,15 +331,10 @@ function updateListItems() {
             properties = shape.getProperties();
 
             html.push('<div class="listItem" onclick="itemSelected(\'', shape.getId(), '\')"><div class="listItem-title">',
-                properties['AddressLine'],
+                properties['VenueName'],
                 '</div>',
 
-                //Get a formatted address line 2 value that consists of City, Municipality, AdminDivision, and PostCode.
-                getAddressLine2(properties),
-                '<br />',
-
-                //Convert the closing time into a nicely formated time.
-                getOpenTillTime(properties),
+                properties['TeamName'],
                 '<br />',
 
                 //Get the distance of the shape.
@@ -365,41 +347,6 @@ function updateListItems() {
         //Scroll to the top of the list panel incase the user has scrolled down.
         listPanel.scrollTop = 0;
     }
-}
-
-//This converts a time in 2400 format into an AM/PM time or noon/midnight string.
-function getOpenTillTime(properties) {
-    var time = properties['Closes'];
-    var t = time / 100;
-
-    var sTime;
-
-    if (time === 1200) {
-        sTime = 'noon';
-    } else if (time === 0 || time === 2400) {
-        sTime = 'midnight';
-    } else {
-        sTime = Math.round(t) + ':';
-
-        //Get the minutes.
-        t = (t - Math.round(t)) * 100;
-
-        if (t === 0) {
-            sTime += '00';
-        } else if (t < 10) {
-            sTime += '0' + t;
-        } else {
-            sTime += Math.round(t);
-        }
-
-        if (time < 1200) {
-            sTime += ' AM';
-        } else {
-            sTime += ' PM';
-        }
-    }
-
-    return 'Open until ' + sTime;
 }
 
 //When a user clicks on a result in the side panel, look up the shape by its id value and show popup.
@@ -427,60 +374,26 @@ function itemSelected(id) {
 function showPopup(shape) {
     var properties = shape.getProperties();
 
-    /*
-        Generating HTML for the popup that looks like this:
-
-         <div class="storePopup">
-                <div class="popupTitle">
-                    3159 Tongass Avenue
-                    <div class="popupSubTitle">Ketchikan, AK 99901</div>
-                </div>
-                <div class="popupContent">
-                    Open until 22:00 PM<br/>
-                    <img title="Phone Icon" src="images/PhoneIcon.png">
-                    <a href="tel:1-800-XXX-XXXX">1-800-XXX-XXXX</a>
-                    <br>Amenities:
-                    <img title="Wi-Fi Hotspot" src="images/WiFiIcon.png">
-                    <img title="Wheelchair Accessible" src="images/WheelChair-small.png">
-                </div>
-            </div>
-     */
-
     //Calculate the distance from the center of the map to the shape in miles, round to 2 decimals.
     var distance = Math.round(atlas.math.getDistanceTo(map.getCamera().center, shape.getCoordinates(), 'miles') * 100)/100;
 
     var html = ['<div class="storePopup">'];
 
     html.push('<div class="popupTitle">',
-        properties['AddressLine'],
+        properties['VenueName'],
         '<div class="popupSubTitle">',
-        getAddressLine2(properties),
+        properties['TeamName'],
         '</div></div><div class="popupContent">',
-
-        //Convert the closing time into a nicely formated time.
-        getOpenTillTime(properties),
-
-        //Add the distance information.  
-        '<br/>', distance,
-        ' miles away',
-        '<br /><img src="images/PhoneIcon.png" title="Phone Icon"/><a href="tel:',
-        properties['Phone'],
-        '">', 
-        properties['Phone'],
-        '</a>'
+        
+        // Show team image
+        '<img src="/images/teams/',
+        properties['VenueId'],
+        '.png">',
+        '<br /><hr/><span class="popupLabel">Visited:</span>',
+        '<label class="checkbox"><input type="checkbox" onchange="console.log(1)"',
+        properties['Visited'] ? ' checked' : '',
+        '><span class="customLabel"></span></label><br/>'
     );
-
-    if (properties['IsWiFiHotSpot'] || properties['IsWheelchairAccessible']) {
-        html.push('<br/>Amenities: ');
-
-        if (properties['IsWiFiHotSpot']) {
-            html.push('<img src="images/WiFiIcon.png" title="Wi-Fi Hotspot"/>');
-        }
-
-        if (properties['IsWheelchairAccessible']) {
-            html.push('<img src="images/WheelChair-small.png" title="Wheelchair Accessible"/>');
-        }
-    }
 
     html.push('</div></div>');
 
@@ -493,25 +406,6 @@ function showPopup(shape) {
 
     //Open the popup.
     popup.open(map);
-}
-
-//Creates an addressLine2 string consisting of City, Municipality, AdminDivision, and PostCode.
-function getAddressLine2(properties) {
-    var html = [properties['City']];
-
-    if (properties['Municipality']) {
-        html.push(', ', properties['Municipality']);
-    }
-
-    if (properties['AdminDivision']) {
-        html.push(', ', properties['AdminDivision']);
-    }
-
-    if (properties['PostCode']) {
-        html.push(' ', properties['PostCode']);
-    }
-
-    return html.join('');
 }
 
 //Initialize the application when the page is loaded.
