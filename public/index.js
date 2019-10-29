@@ -1,9 +1,9 @@
 
 //The maximum zoom level to cluster data point data on the map.
-var maxClusterZoomLevel = 11;
+var maxClusterZoomLevel = 6;
 
 //The URL to the store location data.
-var storeLocationDataUrl = 'data/ContosoCoffee.txt';
+var storeLocationDataUrl = 'data/ballparks.geojson';
 
 //The URL to the icon image. 
 var iconImageUrl = 'images/CoffeeIcon.png';
@@ -18,7 +18,7 @@ function initialize() {
     //Initialize a map instance.
     map = new atlas.Map('myMap', {
         center: [-90, 40],
-        zoom: 2,
+        zoom: 4,
         view: 'Auto',
         style: 'grayscale_light',
 		
@@ -162,7 +162,21 @@ function initialize() {
     });
 }
 
-function loadStoreData() {
+function loadStoreData(){
+    fetch(storeLocationDataUrl)
+    .then(response => response.json())
+    .then(parks => {
+        console.log(parks);
+
+        //Add the features to the data source.
+        datasource.add(parks.features);
+
+        //Initially update the list items.
+        updateListItems();
+    });
+}
+
+function loadStoreData_old() {
     //Download the store location data.
     fetch(storeLocationDataUrl)
         .then(response => response.text())
@@ -285,7 +299,7 @@ function updateListItems() {
         //Close the popup as clusters may be displayed on the map. 
         popup.close();
 
-        listPanel.innerHTML = '<div class="statusMessage">Search for a location, zoom the map, or press the "My Location" button to see individual locations.</div>';
+        listPanel.innerHTML = '<div class="statusMessage">Search for a park, zoom the map, or press the "My Location" button to see nearby parks.</div>';
     } else {
         //Update the location of the centerMarker.
         centerMarker.setOptions({
