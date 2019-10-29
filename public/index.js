@@ -6,7 +6,7 @@ var maxClusterZoomLevel = 5;
 var storeLocationDataUrl = 'data/ballparks.geojson';
 
 //The URL to the icon image. 
-var iconImageUrl = 'images/CoffeeIcon.png';
+var iconImageUrl = 'images/stadium.png';
 
 //An array of country region ISO2 values to limit searches to.
 var countrySet = ['US', 'CA', 'GB', 'FR','DE','IT','ES','NL','DK'];      
@@ -85,7 +85,7 @@ function initialize() {
         //Create a bubble layer for rendering clustered data points.
         var clusterBubbleLayer = new atlas.layer.BubbleLayer(datasource, null, {
             radius: 12,
-            color: '#007faa',
+            color: '#102576',
             strokeColor: 'white',
             strokeWidth: 2,
             filter: ['has', 'point_count'] //Only render data points which have a point_count property, which clusters do.
@@ -123,7 +123,9 @@ function initialize() {
                     anchor: 'center',
 
                     //Allow the icons to overlap.
-                    allowOverlap: true
+                    allowOverlap: true, 
+
+                    size: 0.25
                 },
                 filter: ['!', ['has', 'point_count']] //Filter out clustered points from this layer.
             });
