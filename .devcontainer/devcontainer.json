@@ -8,5 +8,5 @@
         "dbaeumer.vscode-eslint",
         "johnpapa.vscode-peacock"
     ],
-    "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && sudo .devcontainer/postCreate.sh",
+    "postCreateCommand": "bash .devcontainer/postCreate.sh",
 }
