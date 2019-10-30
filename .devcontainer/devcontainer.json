@@ -1,7 +1,12 @@
 {
     "name": "Ball Park Tracker",
     "appPort": 3000,
+    "settings": {
+        "peacock.remoteColor": "#0000FF"
+    },
     "extensions": [
-        "dbaeumer.vscode-eslint"
-    ]
+        "dbaeumer.vscode-eslint",
+        "johnpapa.vscode-peacock"
+    ],
+    "postCreateCommand": "chmod +x .devcontainer/postCreate.sh && sudo .devcontainer/postCreate.sh",
 }
