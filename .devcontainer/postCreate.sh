@@ -8,4 +8,5 @@ mkdir -p /data/db /data/configdb
 chown -R mongodb:mongodb /data/db /data/configdb
 mongod > ~/mongo.log &
 mongoimport --db ballparkTracker --collection parks --file ~/workspace/public/databallparks.extjson --drop
+cd ~/workspace
 npm i
