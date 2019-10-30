@@ -6,6 +6,6 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 mkdir -p /data/db /data/configdb
 chown -R mongodb:mongodb /data/db /data/configdb
-mongod > mongo.log &
-mongoimport --db ballparkTracker --collection parks --file ballparks.extjson --drop
+mongod > ~/mongo.log &
+mongoimport --db ballparkTracker --collection parks --file ~/workspace/public/databallparks.extjson --drop
 npm i
