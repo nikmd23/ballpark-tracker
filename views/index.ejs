@@ -18,7 +18,12 @@
     <link rel="stylesheet" href="main.css" type="text/css" />
     <script src="map.js"></script>
 
-    <script>var AZURE_MAPS_KEY = "<%- AZURE_MAPS_KEY %>";</script>
+    <script>
+        var AZURE_MAPS_KEY = "<%- AZURE_MAPS_KEY %>";
+        if (AZURE_MAPS_KEY === "[YOUR KEY HERE]") {
+            AZURE_MAPS_KEY = window.prompt("Please input an Azure Maps authentication key.\nOr set the AZURE_MAPS_KEY environment variable in '~/.env' to persist this setting.");
+        }
+    </script>
 </head>
 <body>
     <header>

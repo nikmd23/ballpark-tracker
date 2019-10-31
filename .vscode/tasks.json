@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks":[
+        {
+            "label": "CheckEnv",
+            "type": "shell",
+            "command": "${workspaceFolder}/.vscode/checkenv.sh",
+            "presentation": {
+                "echo": false,
+                "reveal": "never",
+                "focus": false,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            }
+        }
+    ]
+}
