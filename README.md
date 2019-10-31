@@ -6,8 +6,8 @@ Data set to explore:
 - https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues-usage/data
 - https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues/data
 
-Potential base image:
-- https://hub.docker.com/r/meanjs/mean/dockerfile
+Images compiled at:
+- http://www.sportslogos.net/
 
 ## Usage
 

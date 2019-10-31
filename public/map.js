@@ -6,7 +6,7 @@ var maxClusterZoomLevel = 5;
 var storeLocationDataUrl = '/api/parks';
 
 //The URL to the icon image. 
-var iconImageUrl = 'images/stadium.png';
+var iconImageUrl = 'images/Stadium.png';
 
 //An array of country region ISO2 values to limit searches to.
 var countrySet = ['US', 'CA', 'GB', 'FR','DE','IT','ES','NL','DK'];      
