@@ -10,8 +10,10 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.json());
 
+//main app page
 app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: process.env.AZURE_MAPS_KEY }));
 
+//return a json list of ballparks
 app.get('/api/parks', (req, res) => {
   mongoClient.connect(mongoUrl, (_err, db) => {
     var dbo = db.db(mongoDb);
@@ -26,6 +28,7 @@ app.get('/api/parks', (req, res) => {
   });
 });
 
+//update the visited bit in the db
 app.put('/api/update', (req, res) => {
   var body = req.body;
 

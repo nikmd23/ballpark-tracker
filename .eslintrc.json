@@ -10,7 +10,9 @@
     ],
     "globals": {
         "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
+        "SharedArrayBuffer": "readonly",
+        "atlas": "readonly",
+        "AZURE_MAPS_KEY": "readonly"
     },
     "parserOptions": {
         "ecmaVersion": 2018

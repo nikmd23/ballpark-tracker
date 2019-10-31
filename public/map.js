@@ -294,6 +294,7 @@ function updateListItems () {
 }
 
 // When a user clicks on a result in the side panel, look up the shape by its id value and show popup.
+// eslint-disable-next-line no-unused-vars
 function itemSelected (id) {
   // Get the shape from the data source using it's id.
   var shape = datasource.getShapeById(id);
@@ -352,7 +353,8 @@ function showPopup (shape) {
   popup.open(map);
 }
 
-function toggleVenue (el) {
+// eslint-disable-next-line no-unused-vars
+function toggleVenue(el) {
   fetch('/api/update', {
     method: 'PUT',
     body: JSON.stringify({
