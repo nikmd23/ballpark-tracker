@@ -3,7 +3,7 @@
 var maxClusterZoomLevel = 5;
 
 //The URL to the store location data.
-var storeLocationDataUrl = 'data/ballparks.geojson';
+var storeLocationDataUrl = '/api/parks';
 
 //The URL to the icon image. 
 var iconImageUrl = 'images/stadium.png';
@@ -169,67 +169,11 @@ function loadStoreData(){
     .then(response => response.json())
     .then(parks => {
         //Add the features to the data source.
-        datasource.add(parks.features);
+        datasource.add(parks);
 
         //Initially update the list items.
         updateListItems();
     });
-}
-
-function loadStoreData_old() {
-    //Download the store location data.
-    fetch(storeLocationDataUrl)
-        .then(response => response.text())
-        .then(function (text) {
-
-            //Parse the Tab delimited file data into GeoJSON features.
-            var features = [];
-
-            //Split the lines of the file.
-            var lines = text.split('\n');
-
-            //Grab the header row.
-            var row = lines[0].split('\t');
-
-            //Parse the header row and index each column, so that when our code for parsing each row is easier to follow.
-            var header = {};
-            var numColumns = row.length;
-            var i;
-
-            for (i = 0; i < row.length; i++) {
-                header[row[i]] = i;
-            }
-
-            //Skip the header row and then parse each row into a GeoJSON feature.
-            for (i = 1; i < lines.length; i++) {
-                row = lines[i].split('\t');
-
-                //Ensure that the row has the right number of columns.
-                if (row.length >= numColumns) {
-
-                    features.push(new atlas.data.Feature(new atlas.data.Point([parseFloat(row[header['Longitude']]), parseFloat(row[header['Latitude']])]), {
-                        AddressLine: row[header['AddressLine']],
-                        City: row[header['City']],
-                        Municipality: row[header['Municipality']],
-                        AdminDivision: row[header['AdminDivision']],
-                        Country: row[header['Country']],
-                        PostCode: row[header['PostCode']],
-                        Phone: row[header['Phone']],
-                        StoreType: row[header['StoreType']],
-                        IsWiFiHotSpot: (row[header['IsWiFiHotSpot']].toLowerCase() === 'true') ? true : false,
-                        IsWheelchairAccessible: (row[header['IsWheelchairAccessible']].toLowerCase() === 'true') ? true : false,
-                        Opens: parseInt(row[header['Opens']]),
-                        Closes: parseInt(row[header['Closes']])
-                    }));
-                }
-            }
-
-            //Add the features to the data source.
-            datasource.add(features);
-
-            //Initially update the list items.
-            updateListItems();
-        });
 }
 
 function performSearch() {
