@@ -1,9 +1,6 @@
 {
     "name": "Ball Park Tracker",
     "appPort": 3000,
-    "settings": {
-        "peacock.remoteColor": "#0000FF"
-    },
     "extensions": [
         "dbaeumer.vscode-eslint",
         "johnpapa.vscode-peacock"
