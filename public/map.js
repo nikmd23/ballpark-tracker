@@ -338,7 +338,9 @@ function showPopup(shape) {
         '<br /><hr/><span class="popupLeague">',
         properties['League'],
         '</span><span class="popupLabel">Visited:</span>',
-        '<label class="checkbox"><input type="checkbox" onchange="console.log(1)"',
+        '<label class="checkbox"><input type="checkbox" data-venue="',
+        properties['VenueId'],
+        '" onchange="toggleVenue(this)"',
         properties['Visited'] ? ' checked' : '',
         '><span class="customLabel"></span></label><br/>'
     );
@@ -354,6 +356,19 @@ function showPopup(shape) {
 
     //Open the popup.
     popup.open(map);
+}
+
+function toggleVenue(el){
+    fetch('/api/update', {
+        method: 'PUT',
+        body: JSON.stringify({
+            id: el.dataset.venue,
+            visited: el.checked
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
 }
 
 //Initialize the application when the page is loaded.
