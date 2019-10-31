@@ -388,7 +388,7 @@ function showPopup(shape) {
         '</div></div><div class="popupContent">',
         
         // Show team image
-        '<img src="/images/teams/',
+        '<img onerror="this.src=\'/images/MissingImg.png\';" src="/images/teams/',
         properties['VenueId'],
         '.png">',
         '<br /><hr/><span class="popupLabel">Visited:</span>',
