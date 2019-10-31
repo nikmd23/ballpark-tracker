@@ -39,7 +39,7 @@ app.put('/api/update', (req, res) => {
     var patch = { $set: { 'properties.Visited': body.visited } };
 
     dbo.collection(mongoCollection).updateOne(query, patch, (_err, result) => {
-      res.status(200);
+      res.sendStatus(200);
       db.close();
     });
   });

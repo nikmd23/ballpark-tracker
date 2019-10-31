@@ -111,6 +111,19 @@ header {
     height: 50px;
     padding: 20px;
     font-size: 14px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 6% auto;
+    background-position-x: 90%;
+    background-position-y: center;
+}
+
+.visitedtrue {
+    background-image: url("/images/Check.png");
+}
+
+.visitedfalse {
+    background-image: url("/images/Cross.png");
 }
 
     .listItem:hover {

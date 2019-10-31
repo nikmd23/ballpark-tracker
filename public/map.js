@@ -277,7 +277,9 @@ function updateListItems () {
     data.forEach(function (shape) {
       properties = shape.getProperties();
 
-      html.push('<div class="listItem" onclick="itemSelected(\'', shape.getId(), '\')"><div class="listItem-title">',
+      html.push('<div class="listItem ',
+        'visited' + properties['Visited'],
+        '" onclick="itemSelected(\'', shape.getId(), '\')"><div class="listItem-title">',
         properties['VenueName'],
         '</div>',
 
@@ -338,6 +340,8 @@ function showPopup (shape) {
     '</span><span class="popupLabel">Visited:</span>',
     '<label class="checkbox"><input type="checkbox" data-venue="',
     properties['VenueId'],
+    '" data-shapeId="',
+    shape.getId(),
     '" onchange="toggleVenue(this)"',
     properties['Visited'] ? ' checked' : '',
     '><span class="customLabel"></span></label><br/>'
@@ -358,20 +362,37 @@ function showPopup (shape) {
 
 // eslint-disable-next-line no-unused-vars
 function toggleVenue(el) {
-  var visitedParksSpan = document.getElementById('visited_parks');
-  var visitedParksCount = parseInt(visitedParksSpan.innerHTML);
-  visitedParksSpan.innerHTML = el.checked ? ++visitedParksCount : --visitedParksCount;
+  var id = el.dataset.venue;
+  var visited = el.checked;
 
   fetch('/api/update', {
     method: 'PUT',
     body: JSON.stringify({
-      id: el.dataset.venue,
-      visited: el.checked
+      id: id,
+      visited: visited
     }),
     headers: {
       'Content-Type': 'application/json'
     }
+  }).then(_res => {
+    // Update local datasource
+    var shape = datasource.getShapeById(el.dataset.shapeid);
+    shape.addProperty('Visited', visited);
+    updatevisitedCounter(visited);
   });
+}
+
+function updatevisitedCounter (b) {
+  var totalParksCount = parseInt(document.getElementById('total_parks').innerHTML);
+  var visitedParksSpan = document.getElementById('visited_parks');
+  var visitedParksCount = datasource.shapes.filter(i => i.data.properties.Visited).length;
+  visitedParksSpan.innerHTML = visitedParksCount;
+
+  if (totalParksCount === visitedParksCount) {
+    document.getElementById('parks_celebrate').style.display = 'inline';
+  } else {
+    document.getElementById('parks_celebrate').style.display = 'none';
+  }
 }
 
 // Initialize the application when the page is loaded.
