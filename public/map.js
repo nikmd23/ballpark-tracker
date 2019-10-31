@@ -335,7 +335,9 @@ function showPopup(shape) {
         '<img onerror="this.src=\'/images/MissingImg.png\';" src="/images/teams/',
         properties['VenueId'],
         '.png">',
-        '<br /><hr/><span class="popupLabel">Visited:</span>',
+        '<br /><hr/><span class="popupLeague">',
+        properties['League'],
+        '</span><span class="popupLabel">Visited:</span>',
         '<label class="checkbox"><input type="checkbox" onchange="console.log(1)"',
         properties['Visited'] ? ' checked' : '',
         '><span class="customLabel"></span></label><br/>'
