@@ -169,6 +169,9 @@ function loadStoreData () {
       // Add the features to the data source.
       datasource.add(parks);
 
+      document.getElementById('total_parks').innerHTML = parks.length;
+      document.getElementById('visited_parks').innerHTML = parks.filter(i => i.properties.Visited).length;
+
       // Initially update the list items.
       updateListItems();
     });
@@ -355,6 +358,10 @@ function showPopup (shape) {
 
 // eslint-disable-next-line no-unused-vars
 function toggleVenue(el) {
+  var visitedParksSpan = document.getElementById('visited_parks');
+  var visitedParksCount = parseInt(visitedParksSpan.innerHTML);
+  visitedParksSpan.innerHTML = el.checked ? ++visitedParksCount : --visitedParksCount;
+
   fetch('/api/update', {
     method: 'PUT',
     body: JSON.stringify({
