@@ -1112,7 +1112,7 @@
                 "Latitude": 42.339278037,
                 "Longitude": -83.048831437999993,
                 "VenueUrl": "https:\/\/www.mlb.com\/tigers\/ballpark",
-                "Visited": true
+                "Visited": false
             },
             "geometry": {
                 "type": "Point",
