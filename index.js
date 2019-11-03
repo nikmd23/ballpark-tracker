@@ -52,5 +52,5 @@ app.put('/api/update', (req, res) => {
 
 // Configuring static assets (css/js)
 app.use(express.static('public'))
-
 app.listen(3000);
+console.log('At running at http://localhost:3000');
