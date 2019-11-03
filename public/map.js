@@ -374,11 +374,15 @@ function toggleVenue(el) {
     headers: {
       'Content-Type': 'application/json'
     }
-  }).then(_res => {
-    // Update local datasource
-    var shape = datasource.getShapeById(el.dataset.shapeid);
-    shape.addProperty('Visited', visited);
-    updatevisitedCounter(visited);
+  }).then(res => {
+    if (res.ok) {
+      // Update local datasource
+      var shape = datasource.getShapeById(el.dataset.shapeid);
+      shape.addProperty('Visited', visited);
+      updatevisitedCounter(visited);
+    } else {
+      el.checked = false;
+    }
   });
 }
 
