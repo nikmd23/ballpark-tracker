@@ -10,7 +10,13 @@
             ],
             "envFile": "${workspaceFolder}/../.env",
             "program": "${workspaceFolder}/index.js",
-            "preLaunchTask": "CheckEnv"
+            "preLaunchTask": "CheckEnv",
+            "console": "integratedTerminal",
+            "serverReadyAction": {
+                "pattern": "http://localhost:([0-9]+)",
+                "uriFormat": "http://localhost:%s",
+                "action": "openExternally"
+              }
         }
     ]
 }
