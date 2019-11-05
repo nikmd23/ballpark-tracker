@@ -3,7 +3,8 @@
     "appPort": 3000,
     "extensions": [
         "dbaeumer.vscode-eslint",
-        "johnpapa.vscode-peacock"
+        "johnpapa.vscode-peacock",
+        "karigari.chat"
     ],
     "postCreateCommand": "bash .devcontainer/postCreate.sh",
 }
