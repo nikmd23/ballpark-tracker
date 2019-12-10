@@ -5,5 +5,5 @@
         "dbaeumer.vscode-eslint",
         "karigari.chat"
     ],
-    "postCreateCommand": "bash .devcontainer/postCreate.sh",
+    "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
