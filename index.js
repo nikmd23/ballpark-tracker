@@ -13,6 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 // main app page
 app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: process.env.AZURE_MAPS_KEY }));
 
+// hi EA!
 // return a json list of ballparks
 app.get('/api/parks', (req, res) => {
   mongoClient.connect(mongoUrl, (_err, db) => {
