@@ -8,12 +8,12 @@ var mongoCollection = 'parks';
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
-// app.use(express.json());
+//app.use(express.json());
 
-// main app page
+//main app page
 app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: process.env.AZURE_MAPS_KEY }));
 
-// return a json list of ballparks
+//return a json list of ballparks
 app.get('/api/parks', (req, res) => {
   mongoClient.connect(mongoUrl, (_err, db) => {
     var dbo = db.db(mongoDb);
@@ -28,7 +28,7 @@ app.get('/api/parks', (req, res) => {
   });
 });
 
-// update the visited bit in the db
+//update the visited bit in the db
 app.put('/api/update', (req, res) => {
   var body = req.body;
   if (!body) {
@@ -50,7 +50,7 @@ app.put('/api/update', (req, res) => {
   }
 });
 
-// Configuring static assets (css/js)
+//Configuring static assets (css/js)
 app.use(express.static('public'))
 app.listen(3000);
 console.log('At running at http://localhost:3000');
