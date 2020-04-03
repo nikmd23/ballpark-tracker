@@ -8,7 +8,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "envFile": "${workspaceFolder}/../.env",
+            "envFile": "${env:HOME}/.env",
             "program": "${workspaceFolder}/index.js",
             "preLaunchTask": "CheckEnv",
             "console": "integratedTerminal",
