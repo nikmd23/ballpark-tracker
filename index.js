@@ -1,3 +1,4 @@
+var fs = require('fs')
 var path = require('path');
 var express = require('express');
 var app = express();
@@ -12,7 +13,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 //main app page
 app.get('/', (req, res) => res.render('index', { AZURE_MAPS_KEY: process.env.AZURE_MAPS_KEY }));
-// hello
+
 //return a json list of ballparks
 app.get('/api/parks', (req, res) => {
   mongoClient.connect(mongoUrl, (_err, db) => {
@@ -52,5 +53,6 @@ app.put('/api/update', (req, res) => {
 
 //Configuring static assets (css/js)
 app.use(express.static('public'))
+
 app.listen(3000);
-console.log('At running at http://localhost:3000');
+if (!fs.existsSync(`${process.env.HOME}/.nodemon-running`)) console.log('Running at http://localhost:3000');

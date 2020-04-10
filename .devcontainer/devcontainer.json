@@ -5,5 +5,8 @@
         "dbaeumer.vscode-eslint",
         "karigari.chat"
     ],
+    "settings": {
+        "files.autoSave": "off"
+    },
     "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }

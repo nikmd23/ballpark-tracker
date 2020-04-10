@@ -4,7 +4,27 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "Run w/ NodeMon",
+            "runtimeExecutable": "nodemon",
+            "envFile": "${env:HOME}/.env",
+            "program": "${workspaceFolder}/index.js",
+            "preLaunchTask": "CheckEnv",
+            "restart": true,
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "serverReadyAction": {
+                "pattern": "http://localhost:([0-9]+)",
+                "uriFormat": "http://localhost:%s",
+                "action": "openExternally"
+              }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Ballpark Tracker",
             "skipFiles": [
                 "<node_internals>/**"
             ],
