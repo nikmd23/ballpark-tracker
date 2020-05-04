@@ -10,7 +10,8 @@
 	"workspaceFolder": "/workspace",
     "remoteUser": "node",
     "settings": {
-        "files.autoSave": "off"
+        "files.autoSave": "off",
+	"terminal.integrated.shell.linux": "/bin/bash"
     },
     "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
