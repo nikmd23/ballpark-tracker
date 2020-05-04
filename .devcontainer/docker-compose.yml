@@ -9,7 +9,7 @@ services:
     command: sleep infinity
     
     links:
-      - mongo:ballparkTracker
+      - mongo
 
   mongo:
     image: mongo
