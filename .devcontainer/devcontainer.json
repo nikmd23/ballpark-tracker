@@ -5,7 +5,7 @@
         "dbaeumer.vscode-eslint",
         "karigari.chat"
     ],
-    "image": "node:12-stretch",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:12",
     "settings": {
         "files.autoSave": "off"
     },
