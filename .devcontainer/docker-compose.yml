@@ -1,9 +1,9 @@
-version: '3.7'
+version: '3'
 services:
   node:
     build: 
       context: .
-      target: development
+      # target: development
       dockerfile: Dockerfile
     volumes:
       - ..:/workspace:cached
