@@ -5,6 +5,7 @@
         "dbaeumer.vscode-eslint",
         "karigari.chat"
     ],
+    "image": "node:12-strech",
     "settings": {
         "files.autoSave": "off"
     },
