@@ -5,7 +5,9 @@
         "dbaeumer.vscode-eslint",
         "karigari.chat"
     ],
-    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:12",
+    "dockerComposeFile": "docker-compose.yml",
+	"service": "node",
+	"workspaceFolder": "/workspace",
     "remoteUser": "node",
     "settings": {
         "files.autoSave": "off"
