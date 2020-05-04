@@ -3,7 +3,7 @@ var path = require('path');
 var express = require('express');
 var app = express();
 var mongoClient = require('mongodb').MongoClient;
-var mongoUrl = 'mongodb://localhost:27017/';
+var mongoUrl = 'mongodb://mongo:27017/';
 var mongoDb = 'ballparkTracker';
 var mongoCollection = 'parks';
 
