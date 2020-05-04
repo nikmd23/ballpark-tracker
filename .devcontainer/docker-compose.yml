@@ -1,7 +1,10 @@
 version: '3'
 services:
   node:
-    image: mcr.microsoft.com/vscode/devcontainers/javascript-node:12
+    build: 
+      context: .
+      target: development
+      dockerfile: Dockerfile
     volumes:
       - ..:/workspace:cached
 
