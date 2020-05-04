@@ -7,7 +7,7 @@
 # sudo mkdir -p /data/db /data/configdb
 # sudo chown -R mongodb:mongodb /data/db /data/configdb
 # sudo mongod > ~/mongo.log &
-mongoimport --db ballparkTracker --collection parks --file $PWD/public/data/ballparks.extjson --drop
+mongoimport --uri "mongodb://ballparkTracker:27017/" --db ballparkTracker --collection parks --file $PWD/public/data/ballparks.extjson --drop
 
 npm i -g nodemon
 npm i
