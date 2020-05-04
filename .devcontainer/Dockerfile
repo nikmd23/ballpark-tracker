@@ -7,22 +7,3 @@ RUN sudo apt-get update \
     && sudo apt-get update \
     && sudo apt-get install mongodb-org-tools \
     && npm i -g nodemon \
-
-# Build steps go here
-FROM development as builder
-WORKDIR /app
-COPY src/ *.json ./
-RUN yarn install \
-    && yarn compile \
-    #  Just install prod dependencies
-    && yarn install --prod
-
-# Actual production environment setup goes here
-FROM node:12-slim AS production
-WORKDIR /app
-COPY --from=builder /app/out/ ./out/
-COPY --from=builder /app/node_modules/ ./node_modules/
-COPY --from=builder /app/package.json .
-EXPOSE 3000
-ENTRYPOINT [ "/bin/bash", "-c" ]
-CMD [ "npm start" ]
