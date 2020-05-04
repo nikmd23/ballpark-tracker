@@ -1,6 +1,6 @@
 {
     "name": "Ball Park Tracker",
-    "appPort": 3000,
+    "forwardPorts": [3000],
     "extensions": [
         "dbaeumer.vscode-eslint",
         "karigari.chat"
