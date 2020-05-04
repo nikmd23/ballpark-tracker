@@ -6,4 +6,4 @@ RUN sudo apt-get update \
     && echo "deb http://repo.mongodb.org/apt/debian $(lsb_release -cs)/mongodb-org/4.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list \
     && sudo apt-get update \
     && sudo apt-get install mongodb-org-tools \
-    && npm i -g nodemon \
+    && npm i -g nodemon
