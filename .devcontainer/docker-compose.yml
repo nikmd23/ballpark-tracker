@@ -1,0 +1,18 @@
+version: '1'
+services:
+  node:
+    image: mcr.microsoft.com/vscode/devcontainers/javascript-node:12
+    volumes:
+      - ..:/workspace:cached
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+    
+    links:
+      - mongo
+
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    volumes:
+      - /data/db
