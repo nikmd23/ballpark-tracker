@@ -1,0 +1,27 @@
+version: '3'
+services:
+  node:
+    build: 
+      context: .
+      #target: development
+      dockerfile: Dockerfile
+    volumes:
+      - ..:/workspace:cached
+      - ballpark-tracker-node_modules:/workspace/node_modules
+    #container_name: WebServer
+
+    # Overrides default command so things don't shut down after the process ends.
+    command: sleep infinity
+    
+    links:
+      - mongo
+
+  mongo:
+    image: mongo
+    restart: unless-stopped
+    volumes:
+      - /data/db
+    #container_name: Database
+    
+volumes:
+  ballpark-tracker-node_modules:

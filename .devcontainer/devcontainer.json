@@ -1,12 +1,17 @@
 {
-    "name": "Ball Park Tracker",
-    "appPort": 3000,
+    "name": "Ballpark Tracker",
+    "forwardPorts": [3000],
     "extensions": [
         "dbaeumer.vscode-eslint",
         "karigari.chat"
     ],
+    "dockerComposeFile": "docker-compose.yml",
+	"service": "node",
+	"workspaceFolder": "/workspace",
+    "remoteUser": "node",
     "settings": {
-        "files.autoSave": "off"
+        "files.autoSave": "off",
+	"terminal.integrated.shell.linux": "/bin/bash"
     },
     "postCreateCommand": "bash .devcontainer/postCreate.sh"
 }
