@@ -1,6 +1,6 @@
 version: '3'
 services:
-  node:
+  node:WebServer
     build: 
       context: .
       #target: development
@@ -14,7 +14,7 @@ services:
     links:
       - mongo
 
-  mongo:
+  mongo:Database
     image: mongo
     restart: unless-stopped
     volumes:
