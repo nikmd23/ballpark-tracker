@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:12 AS development
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 RUN sudo apt-get update \
     && sudo apt-get install gnupg \
     && wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add - \
