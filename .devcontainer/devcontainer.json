@@ -1,5 +1,5 @@
 {
-    "name": "Ball Park Tracker",
+    "name": "Ballpark Tracker",
     "forwardPorts": [3000],
     "extensions": [
         "dbaeumer.vscode-eslint",
