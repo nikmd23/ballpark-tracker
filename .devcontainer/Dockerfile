@@ -8,6 +8,7 @@ RUN apt-get update \
  && echo "deb http://repo.mongodb.org/apt/debian $(lsb_release -cs)/mongodb-org/4.2 main" | tee /etc/apt/sources.list.d/mongodb-org-4.2.list \
  && apt-get update \
  && apt-get install mongodb-org-tools \
+ && apt-get install mongodb-org-shell \
  && npm i -g nodemon
  
 ENV DEBIAN_FRONTEND=dialog
