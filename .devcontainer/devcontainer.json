@@ -2,8 +2,7 @@
     "name": "Ballpark Tracker",
     "forwardPorts": [3000],
     "extensions": [
-        "dbaeumer.vscode-eslint",
-        "karigari.chat"
+        "dbaeumer.vscode-eslint"
     ],
     "dockerComposeFile": "docker-compose.yml",
 	"service": "node",
