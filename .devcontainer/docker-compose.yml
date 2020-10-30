@@ -12,9 +12,9 @@ services:
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
-    
-    links:
-      - mongo
+    network_mode: host
+    #links:
+    #  - mongo
 
   mongo:
     image: mongo
@@ -22,6 +22,7 @@ services:
     volumes:
       - /data/db
     #container_name: Database
+    network_mode: host
     
 volumes:
   ballpark-tracker-node_modules:
