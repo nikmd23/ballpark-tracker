@@ -13,7 +13,7 @@ services:
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
     
-    depends_on:
+    host:
       - mongo
 
   mongo:
@@ -22,6 +22,8 @@ services:
     volumes:
       - /data/db
     #container_name: Database
+    host:
+      - node
     
 volumes:
   ballpark-tracker-node_modules:
