@@ -22,8 +22,6 @@ services:
     volumes:
       - /data/db
     #container_name: Database
-    links:
-      - node
     
 volumes:
   ballpark-tracker-node_modules:
