@@ -1,7 +1,5 @@
 # ⚾ Ballpark Tracker
 
-[![Open in Visual Studio Codespaces](https://img.shields.io/endpoint?style=social&url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=Ballpark%20Tracker&repo=nikmd23/ballpark-tracker)
-
 A simple application used for tracking which MLB and AAA stadiums a [Ballpark Chaser](https://www.ballparkchasers.com/) has been to.
 
 ![Ballpark Tracker App](screenshot.png)
