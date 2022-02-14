@@ -1,4 +1,4 @@
-# ⚾ Ballpark Tracker
+# ⚾ Ballpark Tracker w/ PR
 
 A simple application used for tracking which MLB and AAA stadiums a [Ballpark Chaser](https://www.ballparkchasers.com/) has been to.
 
